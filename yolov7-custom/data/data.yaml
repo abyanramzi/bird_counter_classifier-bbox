@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Bird']
+
+roboflow:
+  workspace: ar-ynhyl
+  project: bird-detection-q6awy
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/ar-ynhyl/bird-detection-q6awy/dataset/1
